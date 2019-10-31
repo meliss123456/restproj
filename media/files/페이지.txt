@@ -1,0 +1,213 @@
+5.23 ÇÁ·Î
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="grid-container">
+    <!--³×ºñ°ÔÀÌÅÍ-->
+    <nav class = "main-nav">
+
+      <ul>
+        <li><a class="icon_a" href=""><i class="fab fa-apple fa-2x"></i></a></li>
+        <li><a href="">Mac</a></li>
+        <li><a href="">iPad</a></li>
+        <li><a href="">iPhone</a></li>
+        <li><a href="">Watch</a></li>
+        <li><a href="">TV</a></li>
+        <li><a href="">Music</a></li>
+        <li><a href="">Support</a></li>
+        <li><a class="icon_a" href=""><i class="fas fa-search fa-2x"></i></a></li>
+        <li><a calss="icon_a" href=""><i class="fas fa-shopping-bag fa-2x"></i></a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div class="middle">
+    <!--»ó´ÜÄÁÅÙÃ÷-->
+    <section class="top_container">
+      <header class="showcase">
+        <h1>iPhone Xr from $19.99/mo. or $479.</h1>
+        <p>Two great ways to buy. Just trade in your current iPhone online or  at an Apple Store.*</p>
+        <a href="" class="btn">Buy</a>
+        <a href="" class="btn">Learn more</a>
+      </header>
+      <div class="top_a">
+        <h3>iPhone XR</h3>
+        <p>All-screen design. Longest battery life ever in an iPhone. Fastest performance. Studio-quality photos.</p>
+        <a href="" class="btn">Learn more</a>
+      </div>
+      <div class="top_b">
+        <h3>iPhone Xs</h3>
+        <p>Largest Super Retina display. Fastest performance with A12 Bionic. Most secure facial authentication with Face ID. Break through dual cameras with Depth Control.</p>
+        <a href="" class="btn">Learn more</a>
+      </div>
+    </section>
+
+    <!--¹Ú½ºÄÁÅÙÃ÷-->
+    <section class="box_container">
+      <div class="box">
+        <h3>WWDC19</h3>
+        <p>Watch the keynote 6/3 at 10 a.m. PDT</p>
+        <a href="">Learn more</a>
+      </div>
+      <div class="box">
+        <h3>This is Card</h3>
+        <p>A new kind of credit card. <br> Created by Apple, not a bank</p>
+        <a href="">Learn more</a>
+      </div>
+      <div class="box">
+        <h3>TV+</h3>
+        <p>Original stories from the most<br>creative minds in TV and film.
+        <a href="">Learn more</a>
+      </div>
+      <div class="box">
+        <h3>News+</h3>
+        <p>Everything you love<br>about News. Plus.</p>
+        <a href="">Learn more</a>
+      </div>
+      <div class="box">
+        <h3>iPad Pro</h3>
+        <p>All new. All screen. All powerful.</p>
+        <a href="">Learn more</a>
+      </div>
+      <div class="box">
+        <h3>MacBook Air</h3>
+        <p>Lightness strikes again.</p>
+        <a href="">Learn more</a>
+      </div>
+    </section>
+
+    <!--Á¤º¸ÄÁÅÙÃ÷-->
+    <section class="info_container">
+      <img src="image/applewatch.jpg" alt="applewatch">
+      <div>
+        <h2>WATCH</h2>
+        <p>More powerful, more colorful</p>
+        <a href="" class="btn">Learn More</a>
+      </div>
+    </section>
+  </div>
+
+  <!--footer-->
+  <footer>
+    <p>&copy; 2019 Applelover Inc. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CSS Variables*/
+html{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  width:100%;
+  background: #fff;
+  margin: 0px 0px;
+  line-height:+ 1.4;
+}
+
+.btn{
+  background-color: white;
+  color: blue;
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border:0.2;
+}
+
+img{
+  max-width: 100%;
+}
+
+.grid-container{
+  display:grid;
+  grid-gap: 20px;
+}
+
+/*³×ºñ°ÔÀÌ¼Ç*/
+.icon_a{
+  margin-bottm: 1px;
+}
+
+.main-nav{
+  background: black;
+  display: grid;
+  width: 100%;
+  padding: 0;
+  position: fixed;
+}
+
+.main-nav ul{
+  background: black;
+  display: grid;
+  grid-gap: 10px;
+  padding: 0;
+  list-style: none;
+  grid-template-columns: repeat(10,1fr);
+  grid-template-rows: 20px;
+}
+
+.main-nav a{
+  background: black;
+  display: block;
+  text-decoration: none;
+  padding: 0,10;
+  text-align: center;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.main-nav a:hover{
+  background: black;
+  color: gray;
+}
+
+
+/*Áß°£*/
+.middle{
+  margin-top: 50px;
+  background-color: #E7E7E7;
+}
+
+.middle .top_container{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas: 1;
+  grid-template-rows: repeat(3,300px);
+  background-color: white;
+  text-align: center;
+}
+
+.top_container .top_a{
+  
+}
+
+.box_container{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(2,1fr);
+}
